@@ -1,15 +1,60 @@
 #mybox {
+    min-height: 95vh;
+    max-height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr 1fr 100px;
-    grid-template-columns: 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr 1.5fr;
+    grid-template-columns: 30% 1fr 30% 1fr;
     grid-template-areas: 
-        "Area1 Area1 Area2 Area2 Area2 Area2"
-        "Area3 Area3 Area4 Area4 Area4 Area5"
-        "Area3 Area3 Area6 Area7 Area7 Area7"
-        "Area3 Area3 Area8 Area8 Area8 Area8";
+        "Area1 Area2 Area2 Area2"
+        "Area3 Area4 Area4 Area5"
+        "Area3 Area6 Area7 Area7"
+        "Area3 Area8 Area8 Area8";
 }
 
-.item {
-    padding: 10px;
-    border: 2px black;
-}
+.Area1 {
+    background: red;
+    grid-area: Area1;
+    text-align: center;
+  }
+
+.Area2 {
+    background: blueviolet;
+    grid-area: Area2;
+    text-align: center;
+  }
+
+.Area3 {
+    background: orange;
+    grid-area: Area3;
+    text-align: center;
+  }
+
+.Area4 {
+    background: purple;
+    grid-area: Area4;
+    text-align: center;
+  }
+
+.Area5 {
+    background: green;
+    grid-area: Area5;
+    text-align: center;
+  }
+
+.Area6 {
+    background: gray;
+    grid-area: Area6;
+    text-align: center;
+  }
+
+.Area7 {
+    background: pink;
+    grid-area: Area7;
+    text-align: center;
+  }
+
+.Area8 {
+    background: yellow;
+    grid-area: Area8;
+    text-align: center;
+  }
