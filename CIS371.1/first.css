@@ -1,6 +1,4 @@
 #mybox {
-    min-height: 95vh;
-    max-height: 100vh;
     display: grid;
     grid-template-rows: 100px 1fr 1fr 100px;
     grid-template-columns: 30% 1fr 30% 1fr;
@@ -12,49 +10,91 @@
 }
 
 .Area1 {
-    background: red;
+    background: black;
     grid-area: Area1;
     text-align: center;
+    height: 100px;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
   }
 
 .Area2 {
-    background: blueviolet;
+    background: black;
+    color: white;
     grid-area: Area2;
     text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
   }
 
 .Area3 {
-    background: orange;
+    background: white;
     grid-area: Area3;
-    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
   }
 
 .Area4 {
-    background: purple;
     grid-area: Area4;
     text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
   }
 
 .Area5 {
-    background: green;
+    display: flex;
+    background: maroon;
     grid-area: Area5;
-    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
   }
 
 .Area6 {
-    background: gray;
+    background: rgb(27, 208, 166);
     grid-area: Area6;
-    text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
   }
 
 .Area7 {
-    background: pink;
+    background: rgb(0, 146, 251);
     grid-area: Area7;
     text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
   }
 
 .Area8 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     background: yellow;
     grid-area: Area8;
     text-align: center;
+    border-style: solid;
+    border-width: 3px;
+    border-color: gray;
   }
+
+tr:nth-child(odd) {
+  background-color: crimson;
+}
+
+tr:nth-child(even) {
+  background-color: black;
+  color: white;
+}
+
+tr:hover {
+  background-color: blue;
+}
