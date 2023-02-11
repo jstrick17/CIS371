@@ -98,3 +98,7 @@ tr:nth-child(even) {
 tr:hover {
   background-color: blue;
 }
+
+img {
+  height: 75px;
+}
