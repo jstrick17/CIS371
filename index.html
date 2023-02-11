@@ -1,47 +1,22 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="first.css">
-    <div id="mybox">
+<html>
+        <head>
+            <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+            <link rel="stylesheet" href="first.css">
+        </head>
+        <body>
+    
+        <div id="mybox">
+
         <span class="Area1"><img src="/CIS371.1/IMG_0816.JPG" alt="Test" height="100px"/></span>
 
         <span class="Area2"><h2>Jacob Strickland</h2><h3>(999)999-9999&#9742;</h3></span>
 
-        <table class="Area4">
-            <tr>
-                <th>Course Number</th>
-                <th>Course Name</th>
-                <th>Semester Taken</th>
-            </tr>
-            <tr>
-                <td>CIS 337</td>
-                <td>Network Systems Management</td>
-                <td>Fall 2021</td>
-            </tr>
-            <tr>
-                <td>CIS 338</td>
-                <td>Wide Area Network Engineering</td>
-                <td>Fall 2022</td>
-            </tr>
-            <tr>
-                <td>CIS 358</td>
-                <td>Information Assurance</td>
-                <td>Winter 2022</td>
-            </tr>
-            <tr>
-                <td>CIS 368</td>
-                <td>Usability Design & Evaluation</td>
-                <td>Fall 2021</td>
-            </tr>
-        </table>
+        <div id="area4-table" class="Area4"></div>
 
-        <span class="Area5"><img src="/CIS371.1/IMG_0923.jfif" width="250px" height="250px"/></span>
+        <span class="Area5"><img src="/CIS371.1/IMG_0923.jfif" width="250px" height="250px"></span>
         
-        <span class="Area6"><ul>
-            <li><a href="https://www.irs.gov/">IRS</a></li>
-            <li><a href="https://www.nasa.gov/">NASA</a></li>
-            <li><a href="https://home.nra.org/">NRA</a></li>
-            <li><a href="https://www.osha.gov/">OSHA</a></li>
-            <li><a href="https://www.ymca.org/">YMCA</a></li>
-        </ul></span>
+        <span id="area6-list" class="Area6"></span>
 
         <span class="Area7"><p>The water rush down the wash and <i>into</i> the slot 
             canyon below. Two hikers had started the day to sunny weather without 
@@ -62,11 +37,7 @@
             after a set amount was given out it would all disappear. She tried 
             to explain this, but it fell on deaf ears.</p></span>
 
-        <span class="Area8"><a href="https://twitter.com/?lang=en"><img src="/CIS371.1/twitter.png" height="75px"/></a>
-        <a href="https://www.instagram.com/"><img src="/CIS371.1/instagram.jfif" height="75px"/></a>
-        <a href="https://www.tiktok.com/"><img src="/CIS371.1/tiktok.png" height="75px"/></a>
-        <a href="https://www.pinterest.com/"><img src="/CIS371.1/pinterest.png" height="75px"/></a>
-        <a href="https://www.facebook.com/"><img src="/CIS371.1/facebook.png" height="75px"/></a></span>
+        <span id="area8-icons" class="Area8"></span>
 
         <p5 class="Area3">This website was very fun to build. Having taken an HTML and CSS class
             I thought that this would be a breeze, but, these are different concepts than I was taught.
@@ -90,5 +61,8 @@
             flex to center the pictures vertically and space each picture evenly apart.
         </p5>
 
-    </div>
+        <script type="text/babel" src="mycode.ts"></script>
+
+        </div>
+        </body>
 </html>
